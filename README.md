@@ -103,7 +103,7 @@ English Version:
 ![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/eng.png)
 
 # Web Pet
-Cat:
+Cat:  
     ⣿⣿⣿⠟⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢋⣩⣉⢻⣿⣿  
     ⣿⣿⣿⠀⣿⣶⣕⣈⠹⠿⠿⠿⠿⠟⠛⣛⢋⣰⠣⣿⣿⠀⣿⣿  
     ⣿⣿⣿⡀⣿⣿⣿⣧⢻⣿⣶⣷⣿⣿⣿⣿⣿⣿⠿⠶⡝⠀⣿⣿  
