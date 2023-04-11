@@ -40,3 +40,18 @@ After you install this library, you can use your terminal to get into the folder
         python main.py
 
 If you get the app id and secret code successfully, you can open the loginCD.json to put in them.
+
+    [
+        {
+        "appid": "*****************",
+        "secretKey": "******************"
+        }
+    ]
+But an original one wihch was registered by me has been put in.
+
+    [
+        {
+        "appid": "20230410001636585",
+        "secretKey": "L_RILBnzNGqKjDsfvG5C"
+        }
+    ]  
