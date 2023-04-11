@@ -48,7 +48,7 @@ If you get the app id and secret code successfully, you can open the loginCD.jso
         "secretKey": "******************"
         }
     ]
-But an original one wihch was registered by me has been put in.
+But an original one which was registered by me has been put in.
 
     [
         {
@@ -56,3 +56,12 @@ But an original one wihch was registered by me has been put in.
         "secretKey": "L_RILBnzNGqKjDsfvG5C"
         }
     ]  
+
+# Charges for using API (From Baidu Translator)
+Chinese Version:  
+
+    ![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/chn.png)
+
+English Version: 
+
+    ![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/eng.png)
