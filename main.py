@@ -1,4 +1,5 @@
 import URLrequest
+import json
 
 
 def main():
@@ -18,7 +19,13 @@ def main():
 
 if "_main_" == "_main_":
     print("http://api.fanyi.baidu.com/doc/21")
-    with open("referenceSheet.txt") as reference:
-        print(str(reference.readline()))
+    with open("referenceSheet.json") as reference:
+        reference = str(json.load(reference))
+        reference = reference.replace("]", "")
+        reference = reference.replace("[", "")
+        reference = reference.replace("}", "")
+        reference = reference.replace("{", "")
+        reference = reference.replace("'", "")
+        print(reference)
         print("")
     main()
