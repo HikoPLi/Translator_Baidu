@@ -60,8 +60,8 @@ But an original one which was registered by me has been put in.
 # Charges for using API (From Baidu Translator)
 Chinese Version:  
 
-    ![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/chn.png)
+![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/chn.png)
 
 English Version: 
 
-    ![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/eng.png)
+![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/eng.png)
