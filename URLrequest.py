@@ -2,9 +2,13 @@ from urllib.parse import quote
 import requests
 import random
 import hashlib
+import json
 
-appid = "20230410001636585"
-secretKey = "L_RILBnzNGqKjDsfvG5C"
+with open("loginCD.json") as id:
+    json4id = json.load(id)
+
+    appid = json4id[0]['appid']
+    secretKey = json4id[0]['secretKey']
 
 
 def get_myurl(words, toLang, fromLang='auto'):
