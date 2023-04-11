@@ -1,9 +1,6 @@
 # Translator_Baidu
 This program is used as a translator.  
 API is from Baidu Translator.  
-
-# How to request an API and ID
-Firstly, you need to register an account with an app id and secret code.  
 Supported language(From referenceSheet.json): 
  
         {
@@ -37,7 +34,9 @@ Supported language(From referenceSheet.json):
             "Traditional Chinese": "cht",
             "Vietnamese": "vie"
         }
-  
+
+# How to request an API and ID
+Firstly, you need to register an account with an app id and secret code.    
 The entrance URL is :
 
     https://fanyi-api.baidu.com/
