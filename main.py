@@ -5,7 +5,7 @@ import json
 def main():
     while "_keep_" == "_keep_":
         userinput = input(
-            "Enter what you want to translate(Enter 'q' to quite.): ")
+            "Enter what you want to translate(Enter 'q' to quit.): ")
 
         if userinput == "q":
             print("Thanks for using!")
