@@ -4,6 +4,39 @@ API is from Baidu Translator.
 
 # How to request an API and ID
 Firstly, you need to register an account with an app id and secret code.  
+Supported language(From referenceSheet.json): 
+ 
+        {
+        "Reference Sheet for English": {
+            "Chinese": "zh",
+            "English": "en",
+            "Cantonese": "yue",
+            "Classical Chinese": "wyw",
+            "Japanese": "jp",
+            "Korean": "kor",
+            "French": "fra",
+            "Spanish": "spa",
+            "Thai": "th",
+            "Arabic": "ara",
+            "Russian": "ru",
+            "Portuguese": "pt",
+            "German": "de",
+            "Italian": "it",
+            "Greek": "el",
+            "Dutch": "nl",
+            "Polish": "pl",
+            "Bulgarian": "bul",
+            "Estonian": "est",
+            "Danish": "dan",
+            "Finnish": "fin",
+            "Czech": "cs",
+            "Romanian": "rom",
+            "Slovenian": "slo",
+            "Swedish": "swe",
+            "Hungarian": "hu",
+            "Traditional Chinese": "cht",
+            "Vietnamese": "vie"
+        }
   
 The entrance URL is :
 
