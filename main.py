@@ -19,13 +19,26 @@ def main():
 
 if "_main_" == "_main_":
     print("http://api.fanyi.baidu.com/doc/21")
+    print("")
     with open("referenceSheet.json") as reference:
-        reference = str(json.load(reference))
-        reference = reference.replace("]", "")
-        reference = reference.replace("[", "")
-        reference = reference.replace("}", "")
-        reference = reference.replace("{", "")
-        reference = reference.replace("'", "")
-        print(reference)
+        referenceCN = str(json.load(reference)[0])
+        referenceCN = referenceCN.replace("]", "")
+        referenceCN = referenceCN.replace("[", "")
+        referenceCN = referenceCN.replace("}", "")
+        referenceCN = referenceCN.replace("{", "")
+        referenceCN = referenceCN.replace("'", "")
+
+    with open("referenceSheet.json") as reference:
+        referenceEN = str(json.load(reference)[1])
+        referenceEN = referenceEN.replace("]", "")
+        referenceEN = referenceEN.replace("[", "")
+        referenceEN = referenceEN.replace("}", "")
+        referenceEN = referenceEN.replace("{", "")
+        referenceEN = referenceEN.replace("'", "")
+
+        print(referenceCN)
+        print("")
+        print(referenceEN)
+
         print("")
     main()
