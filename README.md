@@ -1,6 +1,10 @@
 # Translator_Baidu
 This program is used as a translator.  
 API is from Baidu Translator.  
+  
+Output:
+![Image text](https://github.com/HikoPLi/Translator_Baidu/blob/main/Picture4README/chn.png)
+  
 Supported language(From referenceSheet.json): 
  
         {
