@@ -19,11 +19,12 @@ def get_myurl(words, toLang, fromLang='auto'):
         myMd5.update(sign.encode("utf-8"))
         sign = myMd5.hexdigest()
         """
-        签名生成方法如下：
-        1、将请求参数中的 APPID(appid), 翻译query(q, 注意为UTF-8编码), 随机数(salt), 以及平台分配的密钥(可在管理控制台查看)
-        按照 appid+q+salt+密钥 的顺序拼接得到字符串1。
-        2、对字符串1做md5，得到32位小写的sign。
+        The signature generation method is as follows:
+        1. Combine the APPID (appid), translation query (q, note the UTF-8 encoding), random number (salt), and the key assigned by the platform (available in the management console) in the request parameters
+        The string 1 is obtained by splicing appid+q+salt+key in the order of appid+q+salt+key.
+        2. do md5 on string 1 to get 32-bit lowercase sign.
         """
+
         yield '/api/trans/vip/translate'+'?appid='+appid+'&q='+quote(word)+'&from='+fromLang+'&to='+toLang+'&salt='+str(salt)+'&sign='+sign
 
 
